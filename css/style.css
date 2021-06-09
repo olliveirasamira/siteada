@@ -1,0 +1,100 @@
+body{
+  text-align: center;
+  font-family : open sans, sans-serif;
+  background-color:#8a71c9;
+  color:#ffffff;
+  margin: 0px 0px 30px 0px;
+
+}
+h1{
+ font-size:60px;
+ font-weight:300;
+}
+
+h2{
+  color: #2a0074;
+  font-size:40px;
+}
+
+h3{
+  font-size:22px;
+  font-style:italic;
+}
+
+p{
+  font-size:20px;
+  line-height: 1.5;
+
+}
+
+img{
+  width:100%;
+}
+
+.titulo-verde{
+  color:#04ff9f;
+}
+
+.titulo-rosa {
+  color: #ff9e9e;
+}
+/*ponto é o seletor que faz ref.a classe de nome titulo amarelo no html*/
+.titulo-amarelo{
+  color:#ffe36d;
+}
+/*essa é a section mãe*/
+
+section{
+  width:60%;
+  margin:0 auto;
+ 
+}
+/* aqui definimos q a section que estiver dentro de outra, deve ocupar 100% da section mãe em largura. */
+
+section section{
+  width:100%;
+}
+/**essa é a lista n ordenada das Divas*/
+ul{
+  list-style-type: none;
+  line-height:2;
+  padding-left:0;
+
+}
+
+/*essa é a edição dos links tag a (divas)*/
+a{
+  text-decoration:none;
+  color:#99ffff;
+  font-weight: 700;
+}
+
+/**esse é o menu principal*/
+.principal{
+  background: #ff6cb5;
+  height: 40px;
+  max-width:60% ;
+  margin:0 auto;
+  
+}
+
+/**aqui estamos editando somente a tag a(links) dentro do menu principal */
+.principal a{
+  color: #fff;
+  text-decoration: underline;
+  font-weight: normal;
+}
+/* edicao somente (li> dentro da classe principal, somente os itens*/
+.principal li{
+ display:inline;
+ line-height: 2.5;
+ margin: 0 89px;
+}
+
+button{
+ background-color: #41f341;
+ padding: 2px 20px;
+ border-radius: 3px;
+ border: 1px solid transparent;;
+}
+
